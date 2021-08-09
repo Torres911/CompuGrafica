@@ -1,0 +1,7 @@
+﻿cl : línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
+  main.cpp
+D:\Universidad\Semestre VII\Computacion Grafica\Tetera\main.cpp(44,41): warning C4244: 'argumento': conversión de 'double' a 'GLint'; posible pérdida de datos
+D:\Universidad\Semestre VII\Computacion Grafica\Tetera\main.cpp(44,35): warning C4244: 'argumento': conversión de 'double' a 'GLint'; posible pérdida de datos
+D:\Universidad\Semestre VII\Computacion Grafica\Tetera\main.cpp(49,41): warning C4244: 'argumento': conversión de 'double' a 'GLint'; posible pérdida de datos
+D:\Universidad\Semestre VII\Computacion Grafica\Tetera\main.cpp(49,35): warning C4244: 'argumento': conversión de 'double' a 'GLint'; posible pérdida de datos
+  TemplateProject.vcxproj -> D:\Universidad\Semestre VII\Computacion Grafica\Tetera\Debug\TemplateProject.exe
