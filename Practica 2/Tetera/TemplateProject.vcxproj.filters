@@ -2,31 +2,31 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="glew">
-      <UniqueIdentifier>{d68a6665-4ce3-42f7-b0a5-b8dbd27b4547}</UniqueIdentifier>
+      <UniqueIdentifier>{4f2890b2-3120-40c1-bda7-bf053f3a3846}</UniqueIdentifier>
     </Filter>
     <Filter Include="glew\include">
-      <UniqueIdentifier>{2e066600-78fb-4ed7-9440-7dc8536be201}</UniqueIdentifier>
+      <UniqueIdentifier>{5f95eb43-7c78-453a-b885-35edf587273b}</UniqueIdentifier>
     </Filter>
     <Filter Include="glew\source">
-      <UniqueIdentifier>{c29cf98f-4a94-4cdf-a94b-02354610ae94}</UniqueIdentifier>
+      <UniqueIdentifier>{ef546b3c-d82a-416a-94f1-15477fbacaaf}</UniqueIdentifier>
     </Filter>
     <Filter Include="freeglut">
-      <UniqueIdentifier>{a2edd354-c866-4d97-9240-d2a8a566ba6d}</UniqueIdentifier>
+      <UniqueIdentifier>{d2e1f47c-6b34-4d3f-890f-4f1a9abbd9b5}</UniqueIdentifier>
     </Filter>
     <Filter Include="freeglut\include">
-      <UniqueIdentifier>{6278556d-4ea7-426e-b5a0-3d1cb564db42}</UniqueIdentifier>
+      <UniqueIdentifier>{49d13a74-f3d1-4d8f-8db1-2549cedbcdbd}</UniqueIdentifier>
     </Filter>
     <Filter Include="freeglut\source">
-      <UniqueIdentifier>{90b1969f-568e-426c-84a1-c0d023beb88f}</UniqueIdentifier>
+      <UniqueIdentifier>{05dafb60-9be8-42a6-884c-9e807d38e648}</UniqueIdentifier>
     </Filter>
     <Filter Include="cwc">
-      <UniqueIdentifier>{4ad8dd4b-7502-4d26-943d-718a95f562c1}</UniqueIdentifier>
+      <UniqueIdentifier>{e2545d06-f0d1-4c8e-8340-0b9400e73048}</UniqueIdentifier>
     </Filter>
     <Filter Include="cwc\include">
-      <UniqueIdentifier>{0bf5ed86-2927-4aec-b4d3-e5765290816f}</UniqueIdentifier>
+      <UniqueIdentifier>{44aad360-df1c-4f1c-a014-8e6767a8cde4}</UniqueIdentifier>
     </Filter>
     <Filter Include="cwc\source">
-      <UniqueIdentifier>{e12579bd-178a-4414-a22f-975b2b3944db}</UniqueIdentifier>
+      <UniqueIdentifier>{fea7883f-ec1e-425f-a31d-608a517d7c77}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

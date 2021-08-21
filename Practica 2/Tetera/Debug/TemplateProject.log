@@ -1,7 +1,14 @@
-﻿cl : línea de comandos warning D9035: La opción 'Gm' está desusada y se quitará en próximas versiones
-  main.cpp
-D:\Universidad\Semestre VII\Computacion Grafica\Tetera\main.cpp(44,41): warning C4244: 'argumento': conversión de 'double' a 'GLint'; posible pérdida de datos
-D:\Universidad\Semestre VII\Computacion Grafica\Tetera\main.cpp(44,35): warning C4244: 'argumento': conversión de 'double' a 'GLint'; posible pérdida de datos
-D:\Universidad\Semestre VII\Computacion Grafica\Tetera\main.cpp(49,41): warning C4244: 'argumento': conversión de 'double' a 'GLint'; posible pérdida de datos
-D:\Universidad\Semestre VII\Computacion Grafica\Tetera\main.cpp(49,35): warning C4244: 'argumento': conversión de 'double' a 'GLint'; posible pérdida de datos
-  TemplateProject.vcxproj -> D:\Universidad\Semestre VII\Computacion Grafica\Tetera\Debug\TemplateProject.exe
+﻿glApplication.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
+main.obj : error LNK2019: símbolo externo "public: __thiscall Torus::Torus(void)" (??0Torus@@QAE@XZ) sin resolver al que se hace referencia en la función "public: __thiscall myWindow::myWindow(void)" (??0myWindow@@QAE@XZ)
+main.obj : error LNK2019: símbolo externo "public: void __thiscall Torus::dibujarTorus(float,float,float)" (?dibujarTorus@Torus@@QAEXMMM@Z) sin resolver al que se hace referencia en la función "public: virtual void __thiscall myWindow::OnRender(void)" (?OnRender@myWindow@@UAEXXZ)
+main.obj : error LNK2019: símbolo externo "public: __thiscall Torus::~Torus(void)" (??1Torus@@QAE@XZ) sin resolver al que se hace referencia en la función "public: virtual __thiscall myWindow::~myWindow(void)" (??1myWindow@@UAE@XZ)
+main.obj : error LNK2019: símbolo externo "public: __thiscall Triangulo::Triangulo(void)" (??0Triangulo@@QAE@XZ) sin resolver al que se hace referencia en la función "public: __thiscall myWindow::myWindow(void)" (??0myWindow@@QAE@XZ)
+main.obj : error LNK2019: símbolo externo "public: void __thiscall Triangulo::dibujarTriangulo(float,float,float)" (?dibujarTriangulo@Triangulo@@QAEXMMM@Z) sin resolver al que se hace referencia en la función "public: virtual void __thiscall myWindow::OnRender(void)" (?OnRender@myWindow@@UAEXXZ)
+main.obj : error LNK2019: símbolo externo "public: __thiscall Triangulo::~Triangulo(void)" (??1Triangulo@@QAE@XZ) sin resolver al que se hace referencia en la función __unwindfunclet$??0myWindow@@QAE@XZ$3
+main.obj : error LNK2019: símbolo externo "public: __thiscall Tetera::Tetera(void)" (??0Tetera@@QAE@XZ) sin resolver al que se hace referencia en la función "public: __thiscall myWindow::myWindow(void)" (??0myWindow@@QAE@XZ)
+main.obj : error LNK2019: símbolo externo "public: void __thiscall Tetera::dibujarTetera(float,float,float)" (?dibujarTetera@Tetera@@QAEXMMM@Z) sin resolver al que se hace referencia en la función "public: virtual void __thiscall myWindow::OnRender(void)" (?OnRender@myWindow@@UAEXXZ)
+main.obj : error LNK2019: símbolo externo "public: __thiscall Tetera::~Tetera(void)" (??1Tetera@@QAE@XZ) sin resolver al que se hace referencia en la función __unwindfunclet$??0myWindow@@QAE@XZ$4
+main.obj : error LNK2019: símbolo externo "public: __thiscall Arbol::Arbol(void)" (??0Arbol@@QAE@XZ) sin resolver al que se hace referencia en la función "public: __thiscall myWindow::myWindow(void)" (??0myWindow@@QAE@XZ)
+main.obj : error LNK2019: símbolo externo "public: void __thiscall Arbol::dibujarArbol(float,float,float)" (?dibujarArbol@Arbol@@QAEXMMM@Z) sin resolver al que se hace referencia en la función "public: virtual void __thiscall myWindow::OnRender(void)" (?OnRender@myWindow@@UAEXXZ)
+main.obj : error LNK2019: símbolo externo "public: __thiscall Arbol::~Arbol(void)" (??1Arbol@@QAE@XZ) sin resolver al que se hace referencia en la función __unwindfunclet$??0myWindow@@QAE@XZ$2
+Debug\TemplateProject.exe : fatal error LNK1120: 12 externos sin resolver

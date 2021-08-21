@@ -9,6 +9,10 @@
 #include <iostream>
 #include "glsl.h"
 #include <time.h>
+#include "Torus.h"
+#include "Triangulo.h"
+#include "Tetera.h"
+#include "Arbol.h"
 
 //-----------------------------------------------------------------------------
 
@@ -22,6 +26,10 @@ protected:
    clock_t time0,time1;
    float timer010;  // timer counting 0->1->0
    bool bUp;        // flag if counting up or down.
+   Arbol arbol;
+   Triangulo triangulo;
+   Tetera tetera;
+   Torus torus;
 
 
 public:
@@ -37,53 +45,12 @@ public:
          //glRotatef(timer010*360, 0.5, 1.0f, 0.1f);
          //glutSolidTeapot(1.0);
         
-         glTranslatef(0.0f, 0.0f, -5.0f);
+         glTranslatef(0.0f, 0.0f, -13.0f);
          
-         glPushMatrix();
-         glTranslatef(0.0, 0.0, 0.0);
-         glutSolidTorus(0.2, 1.0, 20.0, 8.0);
-         glPopMatrix();
-
-         glPushMatrix();
-         glTranslatef(0.0, 0.0, 0.0);
-         glutSolidTorus(0.1, 0.5, 20.0, 8.0);
-         glPopMatrix();
-
-         glPushMatrix();
-         glTranslatef(-3.0f, 0.0, 0.0);
-         glutSolidTeapot(0.5);
-         glPopMatrix();
-
-         glPushMatrix();
-         glTranslatef(0.0f, -3.0f, 0.0);
-         glutSolidTeapot(0.5);
-         glPopMatrix();
-
-         glPushMatrix();
-         glTranslatef(3.0f, 0.0, 0.0);
-         glutSolidTeapot(0.5);
-         glPopMatrix();
-
-         glPushMatrix();
-         glTranslatef(3.0f, 3.0f, 0.0);
-         glRotatef(45, 0, 0, 1);
-         glutSolidCube(0.5);
-         glPopMatrix();
-
-         glPushMatrix();
-         glTranslatef(0.0f, 3.0f, 0.0);
-         glBegin(GL_TRIANGLES);
-         glVertex3f(0.0, 0.5, 0.0);
-         glVertex3f(-0.5, -0.5, 0.0);
-         glVertex3f(0.5, -0.5, 0.0);
-         glEnd();
-         glPopMatrix();
-
-         glPushMatrix();
-         glTranslatef(-3.0f, 3.0, 0.0);
-         glRotatef(45, 0, 0, 1);
-         glutSolidCube(0.5);
-         glPopMatrix();
+         arbol.dibujarArbol(-3.0f, 0.0f, 0.0f);
+         triangulo.dibujarTriangulo(0.0f, 3.0f, 0.0f);
+         tetera.dibujarTetera(3.0f, 0.0f, 0.0f);
+         torus.dibujarTorus(0.0f, -5.0f, 0.0f);
 
 
 
@@ -117,6 +84,12 @@ public:
       time0 = clock();
       timer010 = 0.0f;
       bUp = true;
+
+      //Objetos Creados
+      arbol = Arbol();
+      triangulo = Triangulo();
+      tetera = Tetera();
+      torus = Torus();
 
       DemoLight();
 
