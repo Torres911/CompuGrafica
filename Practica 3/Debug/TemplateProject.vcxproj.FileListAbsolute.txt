@@ -1,0 +1,5 @@
+C:\Users\HP\Desktop\Nueva carpeta\Debug\TemplateProject.exe
+C:\Users\HP\Desktop\Nueva carpeta\Debug\TemplateProject.pdb
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Nueva carpeta\Debug\TemplateProject.exe
+C:\Users\HP\Desktop\Universidad\Quinto Semestre\Computación Gráfica\Nueva carpeta\Debug\TemplateProject.pdb
+D:\Universidad\Semestre VII\Computacion Grafica\CompuGrafica\Practica 3\Debug\TemplateProject.exe
